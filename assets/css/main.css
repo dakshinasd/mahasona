@@ -1,0 +1,168 @@
+
+
+/*==============================================================================
+   0.0 Common Styles
+==============================================================================*/
+body{
+    font-family: 'Lora', serif;
+    background-color: #e9eaec;
+}
+
+.inline-container{
+    padding:10px 20px;
+}
+
+.tile{
+    background-color: #fff;
+    border: 1px solid #dfe1e3;
+    margin-bottom: 30px;
+}
+
+.ul-unstyled{
+    padding-left: 0px
+}
+
+.ul-unstyled li{
+    list-style: none;
+}
+
+.logo-container{
+    margin-bottom: 30px;
+}
+
+.logo{
+    padding-bottom: 10px;
+    text-align: center;   
+    border-bottom:1px solid #c5c5c5
+}
+
+.logo h1{
+    font-weight: 700
+}
+
+.logo h3.logo-sub-topic{
+    margin-top: -5px;
+    font-size: 1.3em
+}
+
+/*main menu*/
+.menu-container{
+    text-align: center
+}
+.menu-container .main-menu{
+    margin-top: -20px;
+    border-bottom: 1px solid #c5c5c5;
+    padding-bottom: 10px;
+}
+
+.menu-container .main-menu li{
+    display: inline;
+    font-size: 1.2em;
+}
+
+.menu-container .main-menu li a{
+    padding:0 1.3em;
+}
+/*EOF main menu*/
+
+
+/*post items*/
+.post-items{
+    margin-bottom: 0px;
+}
+
+.post-item {
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom:1px solid #e2e2e2
+}
+
+.post-item:last-child{
+    margin-bottom: 0px;
+    border-bottom:none
+}
+
+.post-item h3.post-item-header a{
+    font-weight: 700;
+    color: #626262;
+}
+
+.post-item .post-item-feature-image{
+    width: 100%;
+    margin:10px 0px 20px 0px;
+}
+
+.post-item .post-item-content p.post-item-para{
+    font-weight:400;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #626262;
+}
+
+.post-item .post-meta{
+    font-size: 0.9em;
+    text-align: right;
+    color: #737373;
+    margin-top: 20px;
+}
+/*EOF post items*/
+
+.archive-meta{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top:1px solid #e2e2e2;
+    border-bottom:1px solid #e2e2e2;
+    
+}
+
+.archive-meta a{
+    font-size: 1.2em
+}
+
+.footer{
+    padding-top: 20px;
+}
+/*==============================================================================
+   EOF Common Styles
+==============================================================================*/
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .post-item .post-meta{
+        text-align: left;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
+/*======================= EOF Bootstrap 3 Media Queries ======================*/
+
+
+
+
+
+
+
+
+
