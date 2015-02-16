@@ -66,6 +66,28 @@ body{
 /*EOF main menu*/
 
 
+/*main menu mobile*/
+.main-menu-mobile .mobile-menu-trigger{
+    padding:5px;
+    background-color: #e0e0e0;
+    display:block;
+    outline: none;
+}
+
+.main-menu-mobile .mobile-menu-content{
+    background-color: #ececec
+}
+
+.main-menu-mobile .mobile-menu-content li{
+    padding:3px 0px;
+    border-bottom: 1px solid #dfdfdf
+}
+
+.main-menu-mobile .mobile-menu-content li a{
+    display: block;
+}
+/*EOF main menu mobile*/
+
 /*post items*/
 .post-items{
     margin-bottom: 0px;
@@ -92,11 +114,12 @@ body{
     margin:10px 0px 20px 0px;
 }
 
-.post-item .post-item-content p.post-item-para{
-    font-weight:400;
-    font-size: 1.1em;
-    line-height: 1.5em;
+.post-item .post-item-content p{
     color: #626262;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.45em;
+    margin-bottom: 1.1em;
 }
 
 .post-item .post-meta{
@@ -126,6 +149,18 @@ body{
    EOF Common Styles
 ==============================================================================*/
 
+
+/*==============================================================================
+   1.0 Comment Styles
+==============================================================================*/
+.comments{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #ececec;
+}
+/*==============================================================================
+   EOF Comment Styles
+==============================================================================*/
 
 /*==========  Non-Mobile First Method  ==========*/
 
